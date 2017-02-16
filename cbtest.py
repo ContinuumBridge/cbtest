@@ -8,7 +8,7 @@
 import sys
 
 def main():
-    print("Hello world. This is cbtest.")
+    print("Hello world. This is a new version of cbtest.")
 
 if __name__ == '__main__':
     main()
