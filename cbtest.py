@@ -6,4 +6,9 @@
 # Written by Peter Claydon
 #
 import sys
-print("Hello world")
+
+def main():
+    print("Hello world. This is cbtest.")
+
+if __name__ == '__main__':
+    main()
