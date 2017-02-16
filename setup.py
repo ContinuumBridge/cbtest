@@ -8,4 +8,6 @@ setup(name='cbtest',
       entry_points={
           'console_scripts': [
               'httpstat = cbtest:main'
+           ]
+      },
       )
