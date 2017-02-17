@@ -8,10 +8,9 @@
 import sys
 from twisted.internet import reactor
 
-def delayPrint()
-    print("Delayed print")
+def delayPrint():
+    print("Delayed print. That was the delay.")
     reactor.stop()
-    exit()
 
 def main():
     print("Hello world. This is a cbtest. Now for a 5 second delay")
