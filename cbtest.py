@@ -6,7 +6,7 @@
 # Written by Peter Claydon
 #
 import sys
-fromm twisted.internet import reactor
+from twisted.internet import reactor
 
 def delayPrint()
     print("Delayed print")
