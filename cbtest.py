@@ -6,9 +6,17 @@
 # Written by Peter Claydon
 #
 import sys
+fromm twisted.internet import reactor, defer
+
+def delayPrint()
+    print("Delayed print")
+    reactor.stop()
+    exit()
 
 def main():
-    print("Hello world. This is a private  version of cbtest.")
+    print("Hello world. This is a cbtest. Now for a 5 second delay")
+    reactor.callLater(5, delayPrint)
+    reactor.run()
 
 if __name__ == '__main__':
     main()
