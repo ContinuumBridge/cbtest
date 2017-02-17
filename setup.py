@@ -6,7 +6,7 @@ setup(name='cbtest',
       author_email='peter.claydon@continuumbridge.com',
       py_modules=['cbtest'],
       install_requires=[
-          Twisted==16.4.1
+          'Twisted'==16.4.1
       ]
       entry_points={
           'console_scripts': [
