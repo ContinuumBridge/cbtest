@@ -14,6 +14,8 @@ def delayPrint():
 
 def main():
     print("Hello world. This is a cbtest. Now for a 5 second delay")
+    CB_BID = os.getenv('CB_BID', 'unconfigured')
+    print("CB_BID: {}".format(CB_BID))
     reactor.callLater(5, delayPrint)
     reactor.run()
 
