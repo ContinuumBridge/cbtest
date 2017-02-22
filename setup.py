@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 from distutils.core import setup
 setup(name='cbtest',
-      version='0.0.20',
+      version='0.0.21',
       author='Peter Claydon',
       author_email='peter.claydon@continuumbridge.com',
-      py_modules=['cbtest'],
+      packages=['testdir'],
       install_requires=[
           'Twisted'
       ],
