@@ -1,3 +1,4 @@
 #!/bin/sh
+echo "This is the wrapper from the repo"
 export CB_BID='BID273'
 cbtest
