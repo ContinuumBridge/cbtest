@@ -13,7 +13,7 @@ def delayPrint():
     print("Delayed print from test1")
     reactor.stop()
 
-def main():
+def test1():
     print("Hello, this is test1.py in the testdir directory")
     CB_BID = os.getenv('CB_BID', 'unconfigured')
     print("CB_BID: {}".format(CB_BID))
@@ -21,4 +21,4 @@ def main():
     reactor.run()
 
 if __name__ == '__main__':
-    main()
+    test1()

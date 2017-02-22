@@ -7,13 +7,13 @@
 #
 import sys
 import os
-from testdir import test1
+from  testdir.test1 import test1
 
 def main():
     print("Hello world. This is a cbtest.")
     CB_BID = os.getenv('CB_BID', 'unconfigured')
     print("CB_BID: {}".format(CB_BID))
-    test1.main()
+    test1()
 
 if __name__ == '__main__':
     main()
